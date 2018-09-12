@@ -33,7 +33,7 @@
             android:layout_height="wrap_content" />
 
         <AutoCompleteTextView
-            android:hint=""
+            android:id="@+id/convert_from"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -43,6 +43,7 @@
             android:layout_height="wrap_content" />
 
         <AutoCompleteTextView
+            android:id="@+id/convert_to"
             android:layout_marginBottom="25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
