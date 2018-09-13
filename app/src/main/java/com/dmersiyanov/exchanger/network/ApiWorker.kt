@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiWorker {
 
-    private const val server: String = "https://api.currencyconverterapi.com/api/v6/"
+    private const val server: String = "https://free.currencyconverterapi.com/api/v6/"
 
     fun createConverterService(): ConverterService
             = getRetrofit().create(ConverterService::class.java)
